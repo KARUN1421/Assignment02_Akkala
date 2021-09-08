@@ -38,3 +38,39 @@ The following is to create a table with at least 4food/drinksthat you would reco
 >Author: *Albert Einstein* <br>
 >"Strength is Life weakness is Death".
 >Author: *Swami Vivekananda* <br>
+
+-----
+# Create a New Section about Code Fencing
+>his article is about sets of vertices connected by edges. For graphs of mathematical functions, see Graph of a function. For other uses, see Graph (disambiguation).
+
+A drawing of a graph.
+In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices (also called nodes or points) which are connected by edges (also called links or lines). A distinction is made between undirected graphs, where edges link two vertices symmetrically, and directed graphs, where edges link two vertices asymmetrically. Graphs are one of the principal objects of study in discrete mathematics. quick link to source code <https://en.wikipedia.org/wiki/Graph_theory#Graph>
+```
+int n;
+vector<int> g[MAXN] ;
+bool used[MAXN] ;
+vector<int> comp ;
+
+void dfs(int v) {
+    used[v] = true ;
+    comp.push_back(v);
+    for (size_t i = 0; i < (int) g[v].size(); ++i) {
+        int to = g[v][i];
+        if (!used[to])
+            dfs(to);
+    }
+}
+
+void find_comps() {
+    for (int i = 0; i < n ; ++i)
+        used [i] = false;
+    for (int i = 0; i < n ; ++i)
+        if (!used[i]) {
+            comp.clear();
+            dfs(i);
+            cout << "Component:" ;
+            for (size_t j = 0; j < comp.size(); ++j)
+                cout << ' ' << comp[j];
+            cout << endl ;
+        }
+}
