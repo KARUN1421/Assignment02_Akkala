@@ -34,7 +34,7 @@ The following is to create a table with at least 4food/drinksthat you would reco
 
 -----
 # quotes section
->"Education is not the learning of facts, rather it's the training of the mind to think"
+>"Education is not the learning of facts, rather it's the training of the mind to think".
 >Author: *Albert Einstein* <br>
->"Strength is Life weakness is Death"
+>"Strength is Life weakness is Death".
 >Author: *Swami Vivekananda* <br>
