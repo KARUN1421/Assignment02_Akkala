@@ -74,3 +74,5 @@ void find_comps() {
             cout << endl ;
         }
 }
+`````
+quick link to source code<https://cp-algorithms.com/graph/search-for-connected-components.html>
