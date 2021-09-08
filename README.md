@@ -19,3 +19,15 @@
     * Good Clothes
 * Food 
 **[LinktoAboutMe.md](AboutMe.md)**
+
+# Heading about creating a Table Food/Drinks
+
+Introduction:
+The following is to create a table with at least 4food/drinksthat you would recommend someone try.Include a short paragraph that introduces the table.
+
+|Mandatory  |fav1     |fav2      |fav3     |fav4     |
+| :-----:   | :-----: | :-----:  | :-----: | :-----: |
+|Food/Drinks|Biryani  |Ice Cream |ThumsUp  |Mojito   |
+|Location   |Kansas   |Chicago   |Denver   |Detroit  |
+|Type       |Spicy    |Sweet     |cool     |Large    |
+|Amount     |50-40    |40-30     |30-20    |20-10    |
