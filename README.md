@@ -31,3 +31,10 @@ The following is to create a table with at least 4food/drinksthat you would reco
 |Location   |Kansas   |Chicago   |Denver   |Detroit  |
 |Type       |Spicy    |Sweet     |cool     |Large    |
 |Amount     |50-40    |40-30     |30-20    |20-10    |
+
+-----
+# quotes section
+>"Education is not the learning of facts, rather it's the training of the mind to think"
+>Author: *Albert Einstein* <br>
+>"Strength is Life weakness is Death"
+>Author: *Swami Vivekananda* <br>
